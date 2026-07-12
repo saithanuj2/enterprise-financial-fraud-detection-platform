@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# dbt
+dbt_fraud_analytics/target/
+dbt_fraud_analytics/logs/
+dbt_fraud_analytics/dbt_packages/
+
+# Streamlit
+.streamlit/
+
+# Data
+data/
+*.csv
+
+# ML Models
+models/
+*.pkl
+
+# Vector Store
+rag_assistant/vector_store/
+
+# Generated Case Summaries
+rag_assistant/data/case_summaries/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

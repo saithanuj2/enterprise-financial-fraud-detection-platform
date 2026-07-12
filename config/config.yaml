@@ -1,0 +1,11 @@
+data:
+  raw_file_path: data/raw/paysim.csv
+  processed_file_path: data/processed/fraud_transactions_cleaned.csv
+
+database:
+  host: 127.0.0.1
+  port: 5433
+  database: fraud_warehouse
+  user: fraud_user
+  password: fraud_pass
+  table_name: raw_transactions

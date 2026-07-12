@@ -1,0 +1,41 @@
+[0m22:14:39.030162 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015900E8FB50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001590636F510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000159060D4E90>]}
+
+
+============================== 22:14:39.039161 | 2d8ebb6b-32cf-46e6-93fe-7a8ced00d963 ==============================
+[0m22:14:39.039161 [info ] [MainThread]: Running with dbt=1.11.12
+[0m22:14:39.040167 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\saith\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt init dbt_fraud_analytics', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m22:14:39.074583 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\saith\.dbt
+[0m22:14:39.077634 [info ] [MainThread]: A project called dbt_fraud_analytics already exists here.
+[0m22:14:39.079642 [debug] [MainThread]: Command `dbt init` succeeded at 22:14:39.079642 after 0.20 seconds
+[0m22:14:39.080636 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000159063386D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001590633A990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015904650490>]}
+[0m22:14:39.081633 [debug] [MainThread]: Flushing usage events
+[0m22:14:39.968637 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:17:13.803079 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028EB728EA90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028EBB76F710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028EBB682490>]}
+
+
+============================== 22:17:13.810542 | 9a61b88e-4e81-4543-9082-523a5b80cd2e ==============================
+[0m22:17:13.810542 [info ] [MainThread]: Running with dbt=1.11.12
+[0m22:17:13.812545 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\saith\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt init dbt_fraud_analytics', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m22:17:13.845424 [debug] [MainThread]: Starter project path: C:\Users\saith\Desktop\projects\enterprise-financial-fraud-detection-platform\venv\Lib\site-packages\dbt\include\starter_project
+[0m22:17:13.877957 [info ] [MainThread]: 
+Your new dbt project "dbt_fraud_analytics" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:17:13.880498 [info ] [MainThread]: Setting up your profile.
+[0m22:18:43.427422 [info ] [MainThread]: Profile dbt_fraud_analytics written to C:\Users\saith\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m22:18:43.430424 [debug] [MainThread]: Command `dbt init` succeeded at 22:18:43.429423 after 89.78 seconds
+[0m22:18:43.431428 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028EB54E5C90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028EB54E5950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028EB54E5D50>]}
+[0m22:18:43.432446 [debug] [MainThread]: Flushing usage events
+[0m22:18:44.164925 [debug] [MainThread]: An error was encountered while trying to flush usage events
