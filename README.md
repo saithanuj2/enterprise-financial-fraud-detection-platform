@@ -361,25 +361,25 @@ streamlit run rag_assistant/src/app.py
 
 # 📈 Project Highlights
 
-✔ 6.3M+ Financial Transactions Processed
+6.3M+ Financial Transactions Processed
 
-✔ PostgreSQL Data Warehouse
+PostgreSQL Data Warehouse
 
-✔ dbt Feature Engineering
+dbt Feature Engineering
 
-✔ Random Forest Fraud Detection
+Random Forest Fraud Detection
 
-✔ 99.966% ROC AUC
+99.966% ROC AUC
 
-✔ AI Investigation Assistant
+AI Investigation Assistant
 
-✔ FAISS Semantic Search
+FAISS Semantic Search
 
-✔ Ollama Llama 3.2 Integration
+Ollama Llama 3.2 Integration
 
-✔ Enterprise Streamlit Dashboard
+Enterprise Streamlit Dashboard
 
-✔ Docker Deployment
+Docker Deployment
 
 ---
 
